@@ -1,2 +1,2 @@
 # chat-room
-A chatroom implemented with...
+A chatroom implemented with React and Express
