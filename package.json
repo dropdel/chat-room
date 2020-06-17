@@ -4,7 +4,8 @@
   "description": "A chatroom implemented with...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/dropdel/chat-room#readme",
   "devDependencies": {
     "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "socket.io": "^2.3.0"
   }
 }
